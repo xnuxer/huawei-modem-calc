@@ -6,11 +6,13 @@ g++ huaweicalc.cpp -L/usr/lib -lssl -lcrypto -o huaweicalc
 
 How to use:
 
-./huaweicalc \<IMEI\>
+```
+./huaweicalc <IMEI>
+```
 
 # Example from console
 
-<pre>
+```
 xnuxer@ubuntu:~$ g++ huaweicalc.cpp -L/usr/lib -lssl -lcrypto -o huaweicalc
 huaweicalc.cpp: In function âint main(int, char**)â:
 huaweicalc.cpp:56:50: warning: deprecated conversion from string constant to âchar*â [-Wwrite-strings]
@@ -27,4 +29,4 @@ xnuxer@ubuntu:~$ ./huaweicalc 867648011803309
   Unlock code       = 34560983
   Flash code        = 34591526
 
-</pre>
+```
